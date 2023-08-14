@@ -27,6 +27,13 @@ function Car(name) {
   this.name = name;
 }
 
+//trzeci sposób
+class Car {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
 //instacje
 const maluch = new Car("maluch");
 const polonez = new Car("polonez");
