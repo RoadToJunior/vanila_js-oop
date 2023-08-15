@@ -29,6 +29,9 @@ function Car(name) {
 
 //trzeci sposób
 class Car {
+  /**
+   * @param {string} name
+   */
   constructor(name) {
     this.name = name;
   }
