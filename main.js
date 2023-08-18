@@ -58,3 +58,21 @@ const arek = new Person("Arek", 20);
 const monika = new Person("Monika", 30);
 
 arek.addChildren("marek");
+
+class Animal {
+  constructor(age, name) {
+    this.age = age;
+    this.name = name;
+  }
+}
+
+const zwierze = new Animal(2, "Max");
+
+class Mammal extends Animal {
+  constructor(age, name, hairs) {
+    super(age, name);
+    this.hairs = hairs;
+  }
+}
+
+const ssak = new Mammal(2, "Artek", "dark");
